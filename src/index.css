@@ -1,0 +1,47 @@
+body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Sans", Arial, sans-serif;
+    background-image: url("img/background_table.png");
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+#photo-el {
+    width: 200px;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: green;
+    width: 150px;
+    background: goldenrod;
+    /* Top and bottom padding */
+    padding: 5px 0;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    /* Top and bottom margin */
+    margin: 2px 0;
+}
+
+button:hover {
+    background: gold;
+    cursor: pointer;
+}
+
+.dealer {
+    color: #d70000;
+}
+
+footer {
+    color: goldenrod;
+    font-size: 8px;
+}
